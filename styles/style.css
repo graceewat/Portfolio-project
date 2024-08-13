@@ -24,7 +24,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -38,7 +38,8 @@ img {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding-top: 276px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .hero p {
   font-size: 36px;
@@ -53,7 +54,7 @@ img {
   line-height: 2;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -103,7 +104,7 @@ img {
   color: #f3f0d1;
 }
 .project-description {
-  padding: 100px 60px;
+  padding: 0px 10px;
 }
 nav {
   padding: 20px 0;
@@ -133,7 +134,7 @@ nav li.active a {
   padding-left: 5px;
 }
 footer {
-  margin: 60px;
+  margin: 100px;
 }
 footer .contact-box {
   background-color: var(--secondary-color);
@@ -169,6 +170,9 @@ footer .social-links a:hover {
   color: var(--third-color);
   cursor: pointer;
   background-color: var(--branding-color);
+}
+footer a {
+  color: black;
 }
 @media (max-width: 960px) {
   h1 {
