@@ -102,6 +102,33 @@ img {
 .project-description {
   padding: 100px 60px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+  opacity: 70%;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  cursor: pointer;
+}
+.logo {
+  padding-left: 5px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
@@ -124,5 +151,9 @@ img {
   .content-container {
     text-align: center;
     padding: 20px;
+  }
+  nav a {
+    font-size: 14px;
+    margin-left: 5px;
   }
 }
