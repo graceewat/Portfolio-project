@@ -11,19 +11,23 @@ body {
   font-family: var(--default-font-family);
 }
 h1,
-h2,
-h3,
-h4 {
+h2 {
   font-family: var(--heading-font-family);
 }
+h3,
+h4 {
+  font-family: var(--default-font-family);
+}
 h1 {
-  font-size: 96px;
+  font-size: 144px;
   line-height: 1.5;
   font-weight: bold;
   color: #ab371e;
 }
 h2 {
-  font-size: 58px;
+  font-size: 90px;
+  font-weight: bold;
+  color: #ab371e;
 }
 h3 {
   font-size: 48px;
@@ -58,14 +62,7 @@ img {
 .content-container {
   padding: 60px 20px;
 }
-.content-container h1 {
-  font-size: 64px;
-  line-height: 1.5;
-}
-.content-container h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
-}
+
 .content-container h3 {
   font-size: 24px;
   font-family: var(--default-font-family);
