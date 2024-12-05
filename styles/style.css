@@ -126,7 +126,7 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: var(--third-color);
   cursor: pointer;
 }
 .logo {
@@ -159,7 +159,7 @@ footer .email-link:hover {
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
-  background-color: var(--secondary-color);
+  background-color: var(--third-color);
   padding: 10px 15px;
   font-size: 18px;
   border-radius: 50%;
@@ -172,6 +172,9 @@ footer .social-links a:hover {
 }
 footer a {
   color: black;
+}
+.ml-5 {
+  margin-left: 50px;
 }
 @media (max-width: 960px) {
   h1 {
