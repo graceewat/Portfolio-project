@@ -194,6 +194,9 @@ footer a {
   border-color: #ab371e !important;
   padding-left: 50px;
 }
+.portfolio-examples {
+  background-color: var(--third-color);
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
