@@ -189,6 +189,11 @@ footer a {
 .introducing img {
   max-height: 800px;
 }
+.timeline {
+  border-width: 2px !important;
+  border-color: #ab371e !important;
+  padding-left: 50px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
