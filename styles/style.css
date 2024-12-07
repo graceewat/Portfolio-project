@@ -196,6 +196,7 @@ footer a {
 }
 .portfolio-examples {
   background-color: var(--third-color);
+  border-radius: 4px;
 }
 @media (max-width: 960px) {
   h1 {
